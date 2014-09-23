@@ -14,6 +14,8 @@ public class Fir extends Chugen {
     0.0 => float a0;
     1.0 => float a1;
 
+    0.5 => float b1;
+
     // function for setting filter cutoff
     // called from main.ck
     fun void filt(float x) {
@@ -25,9 +27,10 @@ public class Fir extends Chugen {
     // write your code inside of this function!
     fun float tick(float x) {
 
+	( a0 * x ) + ( a1 * x1 ) => x;
+ 	x => x1;
 
-  
         x => float out;
-        return out;
+	return out;
     }
 }
