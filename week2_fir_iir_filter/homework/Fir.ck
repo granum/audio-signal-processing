@@ -24,9 +24,7 @@ public class Fir extends Chugen {
     // function that updates every sample
     // write your code inside of this function!
     fun float tick(float x) {
-        a1 * (x - x1) => x
-        x => x1  
-        x => float out;
+
         return out;
     }
 }
