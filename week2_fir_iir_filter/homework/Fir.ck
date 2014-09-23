@@ -25,6 +25,9 @@ public class Fir extends Chugen {
     // write your code inside of this function!
     fun float tick(float x) {
 
+
+  
+        x => float out;
         return out;
     }
 }
